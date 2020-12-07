@@ -42,7 +42,7 @@ Os filtros permitem fazer efeitos complexos com poucos cliques, efeitos como de 
 
 Abaixo está o diagrama de contexto.
 
-<img class="center" border="15px" src="https://github.com/marianaalucena/mini-projeto/blob/main/imagens/contexto.jpg?raw=true" />
+<img class="center" border="15px" src="https://github.com/marianaalucena/mini-projeto/blob/main/imagens/contexto1.jpg?raw=true" />
 
 
 
