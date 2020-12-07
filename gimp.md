@@ -48,18 +48,14 @@ Abaixo está o diagrama de contexto.
 
 ### Containers
 
-Nesta seção eu espero duas coisas: o diagrama de containers e  texto descrevendo os containers. Detalhe no nível que achar necessário, mas é importante saber do que se trata cada container, suas tecnologias, APIs expostas, protocolos, onde são executados/implantados etc. Você pode criar um diagrama de implantação para dar mais detalhes sobre o ambiente em que os containers são implantados e executam. Essa parte de implantação pode ser uma subseção desta seção.
+Várias dezenas de plugins estão incluídas na distribuição oficial do GIMP e são instaladas automaticamente junto com o programa. A maioria deles pode ser acessada através do menu filtros (na verdade, tudo nesse menu é um plugin ou um script), mas vários deles estão localizados em outros menus. Em muitos casos, você pode usar um sem nunca perceber que é um plugin: por exemplo, a função "Normalizar" para correção automática de cores é na verdade um plugin, embora não há nada na maneira como ela funciona que iria demonstrar isso.
 
-Importante, se um componente expor, por exemplo, uma API REST. Seria importante descrever os principais serviços. Talvez até com exemplos de payloads (jsons) para os serviços mais importantes. Ver seção endpoints [deste documento](https://docs.google.com/document/d/1OGPN7crENY5u9AiR_AE7Cb9rT92T-U-YppZL0m4TT2s/edit?usp=sharing).
+Script-Fu é uma linguagem para escrever scripts, que permite que você execute uma série de comandos do GIMP automaticamente.
 
-Importante, se um container expuser, por exemplo, uma API REST, seria importante descrever os principais serviços. Talvez até com exemplos de payloads (jsons) para os serviços mais importantes. Ver seção endpoints [deste documento](https://docs.google.com/document/d/1OGPN7crENY5u9AiR_AE7Cb9rT92T-U-YppZL0m4TT2s/edit?usp=sharing).
+Python-Fu é um conjunto de módulos Python que funcionam como um conteúdo adicional para libgimp, permitindo a escrita de plug-ins para o GIMP.
 
-Abaixo estão exemplos de diagramas de containers e de implantação.
+<img class="center" border="15px" src="https://github.com/marianaalucena/mini-projeto/blob/main/imagens/containers.jpg?raw=true" />
 
-![fig3](c4-containers.png)
-![fig4](parlametria-container.png)
-![fig5](c4-implantacao.png)
-![fig6](parlametria-implantacao.png)
 
 ### Componentes
 
