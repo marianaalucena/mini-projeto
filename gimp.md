@@ -1,6 +1,6 @@
 +++
-title = "Exemplo de documento a ser produzido"
-date = 2019-10-22
+title = "Documentação arquitetural para o GIMP"
+date = 2020-12-07
 tags = []
 categories = []
 +++
