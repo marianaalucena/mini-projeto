@@ -42,10 +42,9 @@ Os filtros permitem fazer efeitos complexos com poucos cliques, efeitos como de 
 
 Abaixo está o diagrama de contexto.
 
+<img class="center" border="15px" src="https://github.com/marianaalucena/mini-projeto/blob/main/imagens/contexto.jpg?raw=true" />
 
-![fig1](c4-context.png)
 
-<img class="center" src="parlametria-contexto.png" style="width:60%">
 
 ### Containers
 
