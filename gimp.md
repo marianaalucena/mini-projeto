@@ -38,7 +38,9 @@ Os filtros permitem fazer efeitos complexos com poucos cliques, efeitos como de 
 
 ### Contexto
 
-É necessário executar o download do instalador do GIMP e abrir o arquivo de instalação. Depois da instalação, pode começar a usá-lo. Para a aplicação de filtros em uma imagem, é necessário fazer o upload da mesma para o programa, no menu superior selecionar a janela "Filtros" e após escolher o filtro. 
+É necessário executar o download do instalador do GIMP e abrir o arquivo de instalação. Depois da instalação, pode começar a usá-lo. Para a aplicação de filtros em uma imagem, é necessário fazer o upload da mesma para o programa, no menu superior selecionar a janela "Filtros" e, logo após, escolher o filtro.  
+
+
 
 Abaixo está o diagrama de contexto.
 
@@ -63,7 +65,13 @@ O GIMP foi projetado para ser extensível com scripts e plug-ins. Esses dois sã
 
 #### Script-Fu
 
-Script-Fu é o que o alguns aplicativos chamam de "macros". Mas Script-Fu é mais poderoso do que isso. Script-Fu é baseado em uma linguagem interpretada chamada Scheme, e funciona usando funções do banco de procedimentos do GIMP. É possível fazer todos os tipos de coisas com Script-Fu, mas um usuário comum do GIMP provavelmente irá usá-lo para automatizar as coisas que: faz com frequência e/ou são muito complicadas de fazer, e difíceis de lembrar.
+Script-Fu é o que o alguns aplicativos chamam de "macros". Script-Fu é baseado em uma linguagem interpretada chamada Scheme, e funciona usando funções do banco de procedimentos do GIMP. É possível fazer todos os tipos de coisas com Script-Fu, mas um usuário comum do GIMP provavelmente irá usá-lo para automatizar as coisas que: faz com frequência e/ou são muito complicadas de fazer, e difíceis de lembrar.
+
+Existem muitos scripts que vêm com o GIMP por padrão, mas existem também grandes quantidades de scripts que estão disponíveis para download em toda Internet.
+
+Se você tiver baixado um script, copie ou mova o para seu diretório de scripts. Ele pode ser encontrado em Preferências: Pastas → Scripts.
+
+Faça uma atualização usando filtros → Script-Fu → Atualizar Scripts no menu imagem. O script agora vai aparecer em um dos seus menus. Se você não encontrá-lo, procurar nos filtros no menu de arquivos raiz. Se ele não aparecer em lugar nenhum, algo estava errado com o script e ele não funcionou. (por exemplo, contém erros de sintaxe).
 
 #### Python-Fu
 
