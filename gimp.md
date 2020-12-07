@@ -29,7 +29,7 @@ Este documento foi produzido para a disciplina de Arquitetura de Software da UFC
 
 GIMP (acrônimo para GNU Image Manipulation Program) é um programa voltado, essencialmente, para edição e criação de imagens raster e, em menor escala, para desenho vetorial. O software é repleto de recursos, de fácil uso e uma boa alternativa gratuita ao mais conhecido dos editores, o gigante Adobe Photoshop.
 
-## O Serviço de edição de fotos através dos filtros no GIMP
+## O Plugins de filtros no GIMP
 
 ### Objetivo Geral
 
