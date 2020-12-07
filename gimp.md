@@ -21,30 +21,27 @@ Este documento foi produzido por Mariana Araújo Lucena.
 
 # Descrição Arquitetural -- GNOME/gimp
 
-Este documento descreve parte da arquitetura do projeto [GNOME/gimp](https://github.com/GNOME/gimp). Essa descrição foi baseada principalmente no modelo [C4](https://c4model.com/).
+Este documento foi produzido para a disciplina de Arquitetura de Software da UFCG, e tem como objetivo descrever parte da arquitetura do projeto [GNOME/gimp](https://github.com/GNOME/gimp). Essa descrição foi baseada principalmente no modelo [C4](https://c4model.com/).
 
-É importante destacar não será descrita toda a arquitetura do GIMP. O foco aqui é a descrição de um serviço específico de análise do editor de imagens, que é parte fundamental do projeto.
+É importante destacar que não será descrita toda a arquitetura do GIMP. O foco aqui é a descrição de um serviço específico de análise do GIMP, que é parte fundamental do projeto.
 
 ## Descrição Geral sobre o GIMP
 
 GIMP (acrônimo para GNU Image Manipulation Program) é um programa voltado, essencialmente, para edição e criação de imagens raster e, em menor escala, para desenho vetorial. O software é repleto de recursos, de fácil uso e uma boa alternativa gratuita ao mais conhecido dos editores, o gigante Adobe Photoshop.
 
-## O Serviço de edição de fotos no GIMP
+## O Serviço de edição de fotos através dos filtros no GIMP
 
 ### Objetivo Geral
 
-Ajustes de cor, filtros e outros efeitos em uma foto. Para editar com uma precisão maior as fotos, deve-se fazer uso da lupa para ampliar. Já no menu “Filtros”, você tem acesso a mais de 140 tipos de filtros diferentes. Os filtros são divididos em 15 categorias para que você consiga achá-los mais facilmente. Essas categorias são: desfocar, realces, distorções, efeitos de sombra, efeitos de luz, ruído detectar borda, genéricos, combinar, filtros artísticos, mapear,
- renderizar, web, animação, alfa para logo, decoração.
+Os filtros permitem fazer efeitos complexos com poucos cliques, efeitos como de iluminação, distorção, entre outros. No menu “Filtros”, você tem acesso a mais de 140 tipos de filtros diferentes. Os filtros são divididos em 15 categorias para que você consiga achá-los mais facilmente. Essas categorias são: desfocar, realces, distorções, efeitos de sombra, efeitos de luz, ruído detectar borda, genéricos, combinar, filtros artísticos, mapear, renderizar, web, animação, alfa para logo, decoração.
 
-### Objetivos Específicos
-
-Queremos ter acesso ao grau de atividade no twitter de parlamentares e de influenciadores do debate no twitter. Além disso, queremos saber quanto essas pessoas tuítam sobre cada proposição ou tema e a indicadores sobre sua atividade. Para parlamentares também queremos indicadores a partir dos léxicos de discurso desenvolvidos pelos nossos parceiros.
 
 ### Contexto
 
-Nesta seção eu espero duas coisas: o diagrama de contexto e um texto curto descrevendo em mais detalhes o contexto do sistema. Isso inclui as fronteiras do sistema, os sistemas/serviços externos com os quais ele se comunica etc.
+É necessário executar o download do instalador do GIMP e abrir o arquivo de instalação. Depois da instalação, pode começar a usá-lo. Para a aplicação de filtros em uma imagem, é necessário fazer o upload da mesma para o programa, no menu superior selecionar a janela "Filtros" e após escolher o filtro. 
 
-Abaixo estão dois exemplos de diagramas de contexto.
+Abaixo está o diagrama de contexto.
+
 
 ![fig1](c4-context.png)
 
