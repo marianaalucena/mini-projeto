@@ -23,17 +23,18 @@ Este documento foi produzido por Mariana Araújo Lucena.
 
 Este documento descreve parte da arquitetura do projeto [GNOME/gimp](https://github.com/GNOME/gimp). Essa descrição foi baseada principalmente no modelo [C4](https://c4model.com/).
 
-É importante destacar não será descrita toda a arquitetura do GIMP. O foco aqui é a descrição de um serviço específico de análise do editor de fotos, que é parte fundamental do projeto.
+É importante destacar não será descrita toda a arquitetura do GIMP. O foco aqui é a descrição de um serviço específico de análise do editor de imagens, que é parte fundamental do projeto.
 
 ## Descrição Geral sobre o GIMP
 
 GIMP (acrônimo para GNU Image Manipulation Program) é um programa voltado, essencialmente, para edição e criação de imagens raster e, em menor escala, para desenho vetorial. O software é repleto de recursos, de fácil uso e uma boa alternativa gratuita ao mais conhecido dos editores, o gigante Adobe Photoshop.
 
-## O Serviço de monitoramento do twitter
+## O Serviço de edição de fotos no GIMP
 
 ### Objetivo Geral
 
-Implementar um serviço para capturar automaticamente o que é dito no twitter sobre as proposições que acompanhamos e prover indicadores sobre as publicações para serem usados no parlametria. 
+Ajustes de cor, filtros e outros efeitos em uma foto. Para editar com uma precisão maior as fotos, deve-se fazer uso da lupa para ampliar. Já no menu “Filtros”, você tem acesso a mais de 140 tipos de filtros diferentes. Os filtros são divididos em 15 categorias para que você consiga achá-los mais facilmente. Essas categorias são: desfocar, realces, distorções, efeitos de sombra, efeitos de luz, ruído detectar borda, genéricos, combinar, filtros artísticos, mapear,
+ renderizar, web, animação, alfa para logo, decoração.
 
 ### Objetivos Específicos
 
