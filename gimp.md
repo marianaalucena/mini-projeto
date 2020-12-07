@@ -59,11 +59,22 @@ Python-Fu é um conjunto de módulos Python que funcionam como um conteúdo adic
 
 ### Componentes
 
-Nesta seção eu espero duas coisas: o diagrama de componentes e texto descrevendo os componentes. Detalhe no nível que achar necessário, mas é importante saber do que se trata cada componente, seus relacionamentos, tecnologias, APIs expostas, protocolos, estilos, padrões etc.
+O GIMP foi projetado para ser extensível com scripts e plug-ins. Esses dois são tecnicamente diferentes, os scripts estão em Script-Fu e são interpretados pelo interpretador de script integrado. Plugins são processos independentes escritos em potencialmente qualquer idioma. Por muito tempo isso significou apenas C, mas desde o 2.6 também existe uma interface para Python. Mas, para complicar as coisas, a maioria dos "plug-ins" python são escritos como scripts: eles são principalmente colados entre as chamadas para a API do Gimp, como as de script-fu, então você ouvirá sobre scripts Python (mas eles são realmente plug-ins).
 
-Abaixo um exemplo de diagrama de componente.
+#### Script-Fu
 
-![fig7](c4-componentes.png)
+Script-Fu é o que o alguns aplicativos chamam de "macros". Mas Script-Fu é mais poderoso do que isso. Script-Fu é baseado em uma linguagem interpretada chamada Scheme, e funciona usando funções do banco de procedimentos do GIMP. É possível fazer todos os tipos de coisas com Script-Fu, mas um usuário comum do GIMP provavelmente irá usá-lo para automatizar as coisas que: faz com frequência e/ou são muito complicadas de fazer, e difíceis de lembrar.
+
+#### Python-Fu
+
+Gimp-Python é uma extensão de script para Gimp, semelhante ao Script-Fu. A principal diferença está no que é chamado primeiro. No Script-Fu, o plugin script-fu executa o script, enquanto no Gimp-Python o script está no controle. Outro ponto de diferença entre o Gimp-Python e o Script-Fu é que o Gimp-Python armazena imagens, camadas, canais e outros tipos como objetos em vez de apenas armazenar seus IDs. Isso permite uma melhor verificação de tipo que está faltando no Script-Fu e permite que esses tipos atuem como objetos, completos com atributos e métodos.
+
+Além disso, o Gimp-Python não se limita apenas a chamar procedimentos do PDB. Ele também implementa o resto do libgimp , incluindo blocos e regiões de pixel, e acesso a outras funções de nível inferior.
+
+Existe um módulo python chamado plugin.py que define uma estrutura para plug-ins e implementa algumas coisas que eram muito difíceis ou impossíveis de fazer em C.
+
+O principal objetivo do plugin.py é implementar uma estrutura orientada a objetos para plug-ins. Além disso, ele lida com tracebacks, que de outra forma são ignorados por libgimp, e fornece um método para chamar outros plug-ins Gimp-Python sem passar pelo banco de dados procedural.
+
 
 ### Código
 
@@ -80,4 +91,4 @@ Além da descrição gostaria de ver aqui um diagrama para descrever os estados 
 
 # Contribuições Concretas
 
-*Descreva* aqui os PRs enviados para o projeto e o status dos mesmos. Forneça os links dos PRs.
+Até o presente momento ainda não foi aberto nenhum pull request desta documentação para o repositório de docs do GNOME/GIMP.
