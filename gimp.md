@@ -1,4 +1,4 @@
-# Documentação arquitetural para o GIMP
++++ title = "Documentação arquitetural para o GIMP" date = 2019-10-22 tags = [] categories = [] +++
 
 ***
 
