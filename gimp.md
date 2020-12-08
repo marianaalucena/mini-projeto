@@ -33,14 +33,18 @@ GIMP (acrônimo para GNU Image Manipulation Program) é um programa voltado, ess
 
 ### Objetivo Geral
 
+As funcionalidades do GIMP pode ser facilmente estendida por meio de plugins. Plugins do GIMP são programas externos que são executados sob o controle da aplicação principal GIMP e interagem com ela muito de perto. Plugins podem manipular imagens de quase todas as formas que os usuários querem. 
+
+Várias dezenas de plugins estão incluídas na distribuição oficial do GIMP e são instaladas automaticamente junto com o programa. A maioria deles pode ser acessada através do menu filtros (na verdade, tudo nesse menu é um plugin ou um script), mas vários deles estão localizados em outros menus. Em muitos casos, você pode usar um sem nunca perceber que é um plugin: por exemplo, a função "Normalizar" para correção automática de cores é na verdade um plugin, embora não há nada na maneira como ela funciona que iria demonstrar isso.
+
 Os filtros permitem fazer efeitos complexos com poucos cliques, efeitos como de iluminação, distorção, entre outros. No menu “Filtros”, você tem acesso a mais de 140 tipos de filtros diferentes. Os filtros são divididos em 15 categorias para que você consiga achá-los mais facilmente. Essas categorias são: desfocar, realces, distorções, efeitos de sombra, efeitos de luz, ruído detectar borda, genéricos, combinar, filtros artísticos, mapear, renderizar, web, animação, alfa para logo, decoração.
 
 
 ### Contexto
 
-É necessário executar o download do instalador do GIMP e abrir o arquivo de instalação. Depois da instalação, pode começar a usá-lo. Para a aplicação de filtros em uma imagem, é necessário fazer o upload da mesma para o programa, no menu superior selecionar a janela "Filtros" e, logo após, escolher o filtro.  
+É necessário executar o download do instalador do GIMP e abrir o arquivo de instalação. Depois da instalação, pode começar a usá-lo. Para a aplicação de filtros em uma imagem, é necessário fazer o upload da mesma para o programa, no menu superior selecionar a janela "Filtros" e, logo após, escolher o filtro. 
 
-
+Para adicionar um plugin de um novo filtro na interface do GIMP é necessário instalar o plugin, descompactá-lo, entrar na pasta do efeito e copiar todos os arquivos .py. Logo após, é necessário acessar a pasta de plugins do GIMP e colar os arquivos .py selecionados anteriormente. Reinicie o programa e o novo filtro já poderá ser visto na aba "Filtros" do menu. 
 
 Abaixo está o diagrama de contexto.
 
@@ -49,8 +53,6 @@ Abaixo está o diagrama de contexto.
 
 
 ### Containers
-
-Várias dezenas de plugins estão incluídas na distribuição oficial do GIMP e são instaladas automaticamente junto com o programa. A maioria deles pode ser acessada através do menu filtros (na verdade, tudo nesse menu é um plugin ou um script), mas vários deles estão localizados em outros menus. Em muitos casos, você pode usar um sem nunca perceber que é um plugin: por exemplo, a função "Normalizar" para correção automática de cores é na verdade um plugin, embora não há nada na maneira como ela funciona que iria demonstrar isso.
 
 Script-Fu é uma linguagem para escrever scripts, que permite que você execute uma série de comandos do GIMP automaticamente.
 
