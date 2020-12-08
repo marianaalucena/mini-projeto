@@ -97,7 +97,9 @@ implementação. Faremos isso mais adiante.
 
 Aqui você deve descrever as informações importantes que são coletadas, manipuladas, armazenadas e distribuídas pelo sistema. Você não precisa descrever todas as informações, somente uma parte que seja essencial para o sistema. Por exemplo, se eu estivesse tratando do instagram, faria algo relacionado aos posts.
 
-Além da descrição gostaria de ver aqui um diagrama para descrever os estados (ex: máquina de estados) de uma informação de acordo com as ações do sistema.
+A url é primeiramente passada pelo usuário, que primeiramente é validada, em seguida é destinada a um InfoExtractor responsável por aquele domínio, o qual ira extrair as informações adequadas da url, estas então são dadas a um File Downloader, adequada para as mesmas, que irá usa-la para fazer o download do vídeo.
+
+O Arquivo é primeiramente selecionado pelo usuário para realização de upload no programa, em seguida é necessário selecionar o filtro desejado, aplicá-lo na imagem, a partir dai tem-se duas opções: salvar e fechar o arquivo ou reverter ao original.
 
 <img class="center" border="15px" src="https://github.com/marianaalucena/mini-projeto/blob/main/imagens/infoFiltro.jpg?raw=true" />
 
