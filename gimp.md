@@ -99,6 +99,8 @@ Aqui você deve descrever as informações importantes que são coletadas, manip
 
 Além da descrição gostaria de ver aqui um diagrama para descrever os estados (ex: máquina de estados) de uma informação de acordo com as ações do sistema.
 
+<img class="center" border="15px" src="https://github.com/marianaalucena/mini-projeto/blob/main/imagens/infoFiltro.jpg?raw=true" />
+
 # Contribuições Concretas
 
 Até o presente momento ainda não foi aberto nenhum pull request desta documentação para o repositório de docs do GNOME/GIMP.
