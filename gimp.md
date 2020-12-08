@@ -1,9 +1,4 @@
-+++
-title = "Documentação arquitetural para o GIMP"
-date = 2020-12-07
-tags = []
-categories = []
-+++
+# Documentação arquitetural para o GIMP"
 
 ***
 
