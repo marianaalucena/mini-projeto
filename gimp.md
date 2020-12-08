@@ -97,7 +97,7 @@ implementação. Faremos isso mais adiante.
 
 O Arquivo é primeiramente selecionado pelo usuário para realização de upload no programa, em seguida é necessário selecionar o filtro desejado, aplicá-lo na imagem, a partir dai tem-se duas opções: salvar e fechar o arquivo ou reverter ao original.
 
-<img class="center" border="15px" src="https://github.com/marianaalucena/mini-projeto/blob/main/imagens/infoFiltro.jpg?raw=true" />
+<img class="center" border="15px" src="https://github.com/marianaalucena/mini-projeto/blob/main/imagens/infoFiltro%20(2).jpg?raw=true" />
 
 # Contribuições Concretas
 
