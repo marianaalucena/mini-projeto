@@ -1,4 +1,4 @@
-# Documentação arquitetural para o GIMP"
+# Documentação arquitetural para o GIMP
 
 ***
 
